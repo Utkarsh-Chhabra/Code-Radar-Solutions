@@ -2,8 +2,8 @@
 int main() {
     int a,b;
     scanf("%d",&a);
-    b=1<<(BITS-1);
-    if(b&1){
+    msb=1<<(BITS-1);
+    if(num&msb){
         printf("Set");
     }
     else{
