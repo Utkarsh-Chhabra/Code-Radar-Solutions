@@ -3,7 +3,7 @@ int main() {
     int a,b;
     scanf("%d",&a);
     msb=1<<(BITS-1);
-    if(num&msb){
+    if(a&b){
         printf("Set");
     }
     else{
