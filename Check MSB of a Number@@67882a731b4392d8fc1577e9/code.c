@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define BITS sizeof(int)*8
 int main() {
     int a,b;
     scanf("%d",&a);
