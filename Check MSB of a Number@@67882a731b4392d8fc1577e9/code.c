@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main() {
-    int a;
+    int a,b;
     scanf("%d",&a);
-    if(a | 1){
+    b=1<<(BITS-1);
+    if(b & 1){
         printf("Set");
     }
     else{
