@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() [
+int main() {
     char ch;
     scanf("%c",ch);
     if(ch="R"){
@@ -17,4 +17,4 @@ int main() [
 
     return 0;
 
-]
+}
