@@ -3,9 +3,8 @@
 int main() {
     int a, b;
     char c;
-    
-    printf("Enter expression (e.g., 5 2 +): ");
-    scanf("%d %d %c", &a, &b, &c); // Fix: Added space before %c to handle whitespace
+
+    scanf("%d %d %c", &a, &b, &c);
     
     switch (c) {
         case '+': 
