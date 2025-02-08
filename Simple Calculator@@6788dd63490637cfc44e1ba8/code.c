@@ -2,12 +2,24 @@
 int main() {
     int main() {
         int a,b;
-        scanf("%d %d",&a,&b);
-        if(a b +){
+        char c;
+        scanf("%d %d %c",&a,&b,&c);
+        if(c=='+'){
             printf("%d",a+b);
         }
+        else if(c=='-'){
+            printf("%d",a-b);
+        }
+        else if(c=='*'){
+            printf("%d",a*b);
+        }
+        else if(c=='/'){
+            printf("%d",a/b);
+        }
         else{
-            printf("Wrong");
+            printf("Error")
         }
     }
+
+    return 0;
 }
