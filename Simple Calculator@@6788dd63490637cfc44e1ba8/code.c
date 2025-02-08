@@ -24,7 +24,7 @@ int main() {
             }
             break;
         default: 
-            printf("Error: Invalid Operator");
+            printf("error");
     }
 
     return 0;
