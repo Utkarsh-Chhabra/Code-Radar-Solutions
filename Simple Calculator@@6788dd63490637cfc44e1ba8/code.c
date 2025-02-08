@@ -18,7 +18,7 @@ int main() {
             break;
         case '/': 
             if (b == 0) { // Fix: Prevent division by zero
-                printf("Error: Division by zero");
+                printf("error");
             } else {
                 printf("%d",a / b); // Fix: Use floating-point division
             }
