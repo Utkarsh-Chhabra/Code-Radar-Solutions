@@ -1,38 +1,24 @@
-#include <stdio.h>
+#include<stdio.h>
 int main() {
     int a;
     scanf("%d",&a);
-    if(a=1){
-        printf("Monday");
+
+    switch(day){
+        case 1: printf("Monday");
         break;
-    }
-    else if(a=2){
-        printf("Tuesday");
+        case 2: printf("Tuesday");
         break;
-    }
-    else if(a=3){
-        printf("Wednesday");
+        case 3: printf("Wednesday");
         break;
-    }
-    else if(a=4){
-        printf("Thursday");
+        case 4: printf("Thursday");
         break;
-    }
-    else if(a=5){
-        printf("Friay");
+        case 5: printf("Friday");
         break;
-    }
-    else if(a=6){
-        printf("Saturday");
+        case 6: printf("Saturday");
         break;
-    }
-    else if(a=7){
-        printf("Sunday");
+        case 7: printf("Sunday");
         break;
-    }
-    else{
-        printf("Invalid");
-        break;
+        default: printf("Invalid");
     }
 
     return 0;
