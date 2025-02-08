@@ -20,7 +20,7 @@ int main() {
             if (b == 0) { // Fix: Prevent division by zero
                 printf("Error: Division by zero");
             } else {
-                printf("%.2f", (float)a / b); // Fix: Use floating-point division
+                printf("%f", (float)a / b); // Fix: Use floating-point division
             }
             break;
         default: 
