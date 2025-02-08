@@ -17,10 +17,10 @@ int main() {
             printf("%d", a * b);
             break;
         case '/': 
-            if (b == 0) { // Fix: Prevent division by zero
+            if (b == 0) { 
                 printf("error");
             } else {
-                printf("%d",a / b); // Fix: Use floating-point division
+                printf("%d",a / b);
             }
             break;
         default: 
