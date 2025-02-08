@@ -8,7 +8,7 @@ int main() {
         case 2: printf("28");
                 break;
         case 3: printf("31");
-                break:
+                break;
         case 4: printf("30");
                 break;
         case 5: printf("31");
