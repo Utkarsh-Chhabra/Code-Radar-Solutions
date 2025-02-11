@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    for(int i=a;i<=100;i++){
+    while(a<1000){
         printf("%d ",i);
     }
 
