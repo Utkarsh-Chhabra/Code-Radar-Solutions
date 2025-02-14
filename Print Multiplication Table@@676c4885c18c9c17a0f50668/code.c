@@ -3,9 +3,9 @@ int main() {
     int a,i,product;
     scanf("%d",&a);
     for(i=1;i<=a;i++){
-        product= a * i;
+        product = a * i;
+        printf("%d",(a x i) = (product));
     }
-    printf("%d",product);
 
     return 0;
 }
