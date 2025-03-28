@@ -23,7 +23,7 @@ int main(){
                 count++;
               }
             }
-        printf("%d %d",element,count);
+        printf("%d %d\n",element,count);
         }
     }
 }
