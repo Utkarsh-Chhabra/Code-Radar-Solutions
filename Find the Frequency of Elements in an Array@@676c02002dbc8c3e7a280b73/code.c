@@ -13,12 +13,13 @@ int main(){
     for(int i=0;i<n;i++){
         int element = arr[i];
         int count = 1;
-        if(arr[i]==INT_MAX){
+        if(arr[i] == INT_MAX){
             continue;
         }
         else{
             for(int j=i+1;j<n;j++){
-                arr[j]==INT_MAX;
+                if(arr[j]==element){
+                arr[j] == INT_MAX;
                 count++;
             }
         }
