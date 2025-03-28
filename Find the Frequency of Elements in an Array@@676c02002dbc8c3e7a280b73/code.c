@@ -21,8 +21,10 @@ int main(){
                 if(arr[j]==element){
                 arr[j] == INT_MAX;
                 count++;
+              }
             }
         }
+
         printf("%d %d\n",element,count);
     }
 }
