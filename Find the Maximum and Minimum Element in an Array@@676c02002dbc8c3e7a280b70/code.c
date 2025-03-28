@@ -16,7 +16,7 @@ int main(){
         }
 
         if(arr[i]<min){
-            min = arr[i]
+            min = arr[i];
         }
     }
 
