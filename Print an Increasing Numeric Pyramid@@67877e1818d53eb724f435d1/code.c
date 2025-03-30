@@ -1,15 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int n, num = 1;
+    int n, i, j;
 
-    
+    // Taking user input
+    printf("Enter the number of rows: ");
     scanf("%d", &n);
 
     // Generating pyramid
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= i; j++) {
-            printf("%d ", num++);
+    for (i = 1; i <= n; i++) {
+        // Print leading spaces for alignment
+        for (j = 1; j <= i; j++) {
+            printf("%d ", j);
         }
         printf("\n");
     }
