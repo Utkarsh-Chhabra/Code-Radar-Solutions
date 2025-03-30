@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, j;
+    int a;
+    scanf("%d", &a);
+    for (int i=0; i<a; i++){
+        int count = 1;
+        for (int h=a-i-1; h>0; h--){
+            printf(" ");
+        }
 
-    // Taking user input
-    printf("Enter the number of rows: ");
-    scanf("%d", &n);
-
-    // Generating pyramid
-    for (i = 1; i <= n; i++) {
-        // Print leading spaces for alignment
-        for (j = 1; j <= i; j++) {
-            printf("%d ", j);
+        for(int j =0; j<=i; j++){
+            printf("%d ", count);
+            count++;
         }
         printf("\n");
     }
-
     return 0;
 }
