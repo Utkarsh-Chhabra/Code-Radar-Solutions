@@ -4,7 +4,7 @@
 int main(){
     int i;
     int count = 0;
-    char st = [40];
+    char st[40];
     scanf("%[^\n]",st);
     for(i = 0; i<strlen(st);i++){
         st[i] = tolower(st[i]);
