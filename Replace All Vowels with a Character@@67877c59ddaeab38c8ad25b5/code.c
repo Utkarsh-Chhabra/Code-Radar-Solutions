@@ -9,7 +9,7 @@ int main(){
     scanf("%[^\n]",str);
     getchar();
 
-    scanf("%c",replace);
+    scanf("%c",&replace);
     for(i = 0;i < strlen(str); i++){
         str[i] = tolower(str[i]);
         if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u'){
