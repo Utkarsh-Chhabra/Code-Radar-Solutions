@@ -3,7 +3,7 @@
 int main(){
     char str[400];
     scanf("%[^\n]",str);
-    printf("%d",strlen(str));
+    printf("%d",(int)strlen(str));
 
     return 0;
 }
