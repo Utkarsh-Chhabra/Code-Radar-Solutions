@@ -10,4 +10,6 @@ int main(){
 
     strcat(str1, str2);
     printf("%s",str1);
+
+    return 0;
 }
